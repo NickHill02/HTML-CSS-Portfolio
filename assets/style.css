@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0c1022;
+    color: white;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 10%;
+    background-color: #202c5f;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* add logo icon later */
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    pointer-events: none;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 525;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: #aa9c9c;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 70px 10% 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-content{
+    max-width: 500px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content P{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* icons for social media */
+icons a{
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.profile{
+    width: 410px;
+    height: 410px;
+    background-color: red;
+}
